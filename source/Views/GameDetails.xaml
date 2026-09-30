@@ -378,7 +378,9 @@
                                             </Style.Triggers>
                                         </Style>
                                     </Border.Style>
-                                    <ScrollViewerEx MaxWidth="1200">
+                                    <ScrollViewerEx MaxWidth="1200"
+                                                    x:Name="PART_ScrollHtmlDescription"
+                                                    CustomScrollAmount="42">
                                         <ScrollViewerEx.Style>
                                             <Style>
                                                 <Setter Property="ItemsControl.MaxHeight" Value="490"/>
